@@ -1,0 +1,671 @@
+/*------------------------------------------------------------------
+InsureMe, AbcTheme
+[Table of contents]
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+A. Custom Classes
+	
+B. Menu
+
+1. Reset
+7. Submenu Types
+14. Footer
+2. Buttons
+9. Testimonial
+14. Tabs
+18. Highlight Heading
+25. Loop Elements
+-------------------------------------------------------------------*/
+
+
+/* a.1.) header-custom-styles-22-1 */
+.header-custom-styles-22-1.header-type-4 .middle-header{
+	border-bottom: none;
+}
+.header-custom-styles-22-1.header-type-4.header-inside-container .middle-header .container{
+	border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+.header-custom-styles-22-1.header-type-4 .nav-is-sticky.stuck.middle-header{
+	background-color: #fff;
+}
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a > span{
+	padding-right: 30px;
+	padding-left: 30px;
+}
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li:hover > a span,
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a:hover span,
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a.active span {
+	border-color: transparent;
+	background-color: #fff;
+	color: #0066ad;
+}
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a span::before{
+	border-color: transparent;
+}
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li:hover > a span::before,
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a:hover span::before,
+.header-custom-styles-22-1 .nav-type-3 .wsmenu-list > li > a.active span::before{
+	border-color: transparent;
+}
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a{
+	padding-top: 25px;
+	padding-bottom: 25px;
+	color: #363636;
+}
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li:hover > a span,
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a:hover span,
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a.active span {
+	background-color: #0066ad;
+	color: #fff;
+}
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li:hover > a,
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a:hover,
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a.active{
+	color: #fff;
+}
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li:hover > a span::before,
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a:hover span::before,
+.header-custom-styles-22-1 .nav-is-sticky.stuck .nav-type-3 .wsmenu-list > li > a.active span::before{
+	border-color: transparent;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	.header-custom-styles-22-1.header-type-4 .nav-type-3 .wsmenu-list > li > a{
+		font-size: 12px;
+	}
+	.header-custom-styles-22-1.header-type-4 .nav-type-3 .wsmenu-list > li > a > span{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+
+}
+.header-custom-styles-22-1.header-type-4 .middle-header .button-container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.header-custom-styles-22-1.header-type-4 .nav-is-sticky.stuck.middle-header .button-container{
+	margin-top: 21px;
+	margin-bottom: 0px;
+}
+
+/* a.2.) row-custom-styles */
+.row-custom-styles-22-1{
+	padding-top: 100px;
+	padding-bottom: 80px;
+}
+.row-custom-styles-22-2{
+	padding-top: 100px;
+	padding-bottom: 10px;
+}
+.row-custom-styles-22-3{
+	padding-top: 220px;
+	padding-bottom: 60px;
+}
+.row-custom-styles-22-4{
+	padding-top: 100px;
+	padding-right: 100px !important;
+	padding-bottom: 100px;
+	padding-left: 100px !important;
+	background-color: #fff;
+}
+.row-custom-styles-22-5{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.row-custom-styles-22-6{
+	padding-top: 100px;
+	padding-bottom: 85px;
+	background-color: #f5f5f5;
+}
+.row-custom-styles-22-7{
+	padding-top: 100px;
+	padding-right: 100px !important;
+	padding-bottom: 120px;
+	padding-left: 100px !important;
+	background-color: rgba(255, 255, 255, .85);
+}
+.row-custom-styles-22-8{
+	padding-top: 100px;
+	padding-right: 100px !important;
+	padding-bottom: 80px;
+	padding-left: 100px !important;
+}
+
+/* a.3.) highligh-heading-custom-styles */
+.highligh-heading-custom-styles-22-1{
+	background-color: #e3e5e5;
+	color: #0066ad !important;
+}
+.highligh-heading-custom-styles-22-2{
+	background-color: #0066ad;
+}
+
+/* a.4.) hr-custom-style */
+.hr-custom-style-22-1{
+	border-color: #e1e1e1;
+}
+
+/* a.5.) boxed-element-custom-styles */
+.boxed-element-custom-styles-22-1.boxed-element .iconbox-title{
+	font-size: 18px;
+}
+.boxed-element-custom-styles-22-1.iconbox-2 .iconbox-img{
+	font-size: 120px;
+}
+.boxed-element-custom-styles-22-2 .iconbox-design .icon{
+	color: #0066ad;
+	font-size: 20px;
+}
+
+/* a.6.) heading-element-custom-styles */
+.heading-element-custom-styles-22-1 h4{
+	color: #fff;
+	text-transform: none;
+	font-weight: 500;
+}
+.heading-element-custom-styles-22-1 .subtitle{
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #0066ad;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+}
+.heading-element-custom-styles-22-1 .sep-element{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+.heading-element-custom-styles-22-1 .sep-element::after{
+	background-color: #0066ad;
+}
+.heading-element-custom-styles-22-2{
+	margin-bottom: 50px;
+	width: 60%;
+	border-bottom-color: #e1e1e1;
+}
+.heading-element-custom-styles-22-2 h4{
+	text-transform: none;
+	font-weight: 500;
+	font-size: 30px;
+}
+.heading-element-custom-styles-22-2::after{
+	background-color: #0066ad;
+}
+.heading-element-custom-styles-22-3 h4{
+	text-transform: none;
+	font-weight: 500;
+}
+.heading-element-custom-styles-22-3 .subtitle{
+	padding-right: 10px;
+	padding-left: 10px;
+	background-color: #0066ad;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 500;
+	font-size: 16px;
+}
+.heading-element-custom-styles-22-3 .sep-element::after{
+	background-color: #0066ad;
+}
+
+/* a.7.) media-element-custom-styles */
+.media-element-custom-styles-22-1 .media-element-4-content .title{
+	background-color: #0066ad;
+	text-transform: none;
+	font-weight: 700;
+	font-size: 18px;
+}
+.media-element-custom-styles-22-1 .media-elementWrap:hover .media-element-4-content .title{
+	background-color: #0066ad;
+}
+.media-element-4 .media-element-4-content .btn{
+	margin-bottom: 20px;
+	background-color: #0066ad;
+	color: #fff;
+	letter-spacing: 1px; 
+}
+.media-element-4:hover .media-element-4-content .btn{
+	background-color: #0066ad;
+}
+.media-element-4 .media-element-4-hover-effect{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	
+	background: rgba(39,45,80,0);
+	background: -moz-linear-gradient(top, rgba(39,45,80,0) 0%, rgba(39,45,80,0.2) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(54,54,54,0)), color-stop(100%, rgba(39,45,80,0.2)));
+	background: -webkit-linear-gradient(top, rgba(39,45,80,0) 0%, rgba(39,45,80,0.2) 100%);
+	background: -o-linear-gradient(top, rgba(39,45,80,0) 0%, rgba(39,45,80,0.2) 100%);
+	background: -ms-linear-gradient(top, rgba(39,45,80,0) 0%, rgba(39,45,80,0.2) 100%);
+	background: linear-gradient(to bottom, rgba(39,45,80,0) 0%, rgba(39,45,80,0.2) 100%);
+	opacity: 1;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0066ad', endColorstr='#0066ad', GradientType=0 );
+}
+
+/* a.8.) bulleted-list-custom-style */
+.bulleted-list-custom-style-22-1 a{
+	color: rgba(54, 54, 54, 0.8);
+}
+.bulleted-list-custom-style-22-1 a:hover{
+	color: #0066ad;
+}
+.bulleted-list-custom-style-22-1 .icon{
+	color: #0066ad;
+	font-size: 20px;
+}
+
+/* a.9.) counter-element-custom-style */
+.counter-element-custom-style-22-1{
+	margin-bottom: 0;
+	background-color: transparent;
+}
+.counter-element-custom-style-22-1:hover{
+	background-color: transparent;
+}
+.counter-element-custom-style-22-1 .counter-element-sep-element{
+	background-color: #0066ad;
+}
+.counter-element-custom-style-22-1 h4{
+	font-weight: 500;
+}
+.counter-element-custom-style-22-2{
+	margin-bottom: 0;
+	background-color: rgba(255,255,255, 0.2);
+}
+.counter-element-custom-style-22-2:hover{
+	background-color: rgba(255,255,255, 0.2);
+}
+.counter-element-custom-style-22-2 .counter-element-sep-element{
+	background-color: #0066ad;
+}
+.counter-element-custom-style-22-2 h4{
+	font-weight: 500;
+}
+
+/* a.10.) counter-element-custom-style */
+.blog-container-custom-styles-22-1{
+	margin-bottom: 0;
+}
+.blog-container-custom-styles-22-1 .no-featured-image{
+	background-color: #f5f5f5;
+}
+.blog-container-custom-styles-22-1 .date{
+	background-color: #0066ad;
+}
+.blog-container-custom-styles-22-1:hover .date{
+	background-color: #0066ad;
+}
+.blog-container-custom-styles-22-1:hover .blog-container-title a{
+	color: #0066ad;
+}
+.blog-container-custom-styles-22-1 .btn{
+	background-color: #0066ad;
+	color: #fff;
+}
+.blog-container-custom-styles-22-1:hover .btn,
+.blog-container-custom-styles-22-1 .btn:hover,
+.blog-container-custom-styles-22-1 .btn:active,
+.blog-container-custom-styles-22-1 .btn:focus{
+	background-color: #0066ad;
+	color: #fff;
+}
+
+/* a.11.) counter-element-custom-style */
+.logo-element-custom-style-22-1 .logo-element-item{
+	margin-bottom: 30px;
+	border: none;
+}
+
+/* a.12.) counter-element-custom-style */
+.testimonial-custom-styles-22-1{
+	margin-bottom: 10px;
+}
+.testimonial-custom-styles-22-1 .testimonial-content{
+	border-bottom: 0;
+	color: rgba(54, 54, 54, 0.8);
+}
+.testimonial-custom-styles-22-1 .testimonial-content .icon{
+	background-color: #0066ad;
+}
+.testimonial-custom-styles-22-1:hover .testimonial-content .icon{
+	background-color: #0066ad;
+}
+.testimonial-custom-styles-22-1 .testimonial-title{
+	font-weight: 500;
+}
+.testimonial-custom-styles-22-1 .testimonial-description{
+	color: #959595;
+}
+
+/* a.13.) counter-element-custom-style */
+.loop-element-custom-styles-22-1 .loop-element-nav-btn .loop-element-nav > div{
+	background-color: #fff;
+	color: #0066ad;
+}
+.loop-element-custom-styles-22-1 .loop-element-nav-btn .loop-element-nav > div:hover{
+	background-color: #0066ad;
+	color: #fff;
+}
+
+/* a.14.) frame-container-custom-style */
+.frame-container-custom-style-22-1{
+	padding: 10px;
+}
+
+/* a.15.) btn-custom-style */
+.btn-custom-style-22-1{
+	text-transform: none;
+	font-weight: 400;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.btn-custom-style-22-1:hover{
+	color: #0066ad;
+}
+.btn-custom-style-22-1 .icon{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	background-color: #0066ad;
+	font-size: 18px;
+	color: #fff;
+}
+.btn-custom-style-22-1 span{
+	padding-top: 5px;
+	padding-right: 0;
+	padding-bottom: 5px;
+}
+
+/* a.16.) contact-form-custom-styles */
+.contact-form-custom-styles-22-1{
+	color: rgba(255, 255, 255, 0.8);
+}
+.contact-form-custom-styles-22-1 .theme-form {
+	border-color: transparent;
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.contact-form-custom-styles-22-1 .theme-form:focus {
+	border-color: transparent;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.contact-form-custom-styles-22-1 .theme-form::-moz-placeholder {
+	color: rgba(255,255,255,0.5);
+	opacity: 1;
+}
+.contact-form-custom-styles-22-1 .theme-form:-ms-input-placeholder {
+	color: rgba(255,255,255,0.5);
+}
+.contact-form-custom-styles-22-1 .theme-form::-webkit-input-placeholder {
+	color: rgba(255,255,255,0.5);
+}
+.row-eq-height {display: flex;}
+#popup{
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: rgba(255, 255, 255, .7);
+}
+#popup-form{
+	position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 60px 20px 20px;
+    margin: auto;
+    width: 300px;
+    height: fit-content;
+    background: white;
+}
+#close-popup{
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	color: #0066ad;
+	cursor: pointer;
+}
+/*------------------------------------------------------------------
+B. Menu
+-------------------------------------------------------------------*/
+@media only screen and (max-width: 991px) {
+	.row-eq-height {display: block;}
+	.wsmenu-list > li > a{
+		font-weight: 500 !important;
+	}
+	.wsmenu-list ul > li > a{
+		font-weight: 400 !important;
+	}
+	.wsmenu > .wsmenu-list > li > a{
+		color: #363636 !important;
+	}
+	.wsmenu > .wsmenu-list > li > a.active,
+	.wsmenu > .wsmenu-list > li:hover > a{
+		color: #0066ad !important;
+	}
+	.wsmenu-list > li > a.active > span,
+	.wsmenu-list > li:hover > a > span{
+		color: #0066ad !important;
+	}
+	.mobile-sub .wsmenu-submenu li a{
+		color: #363636 !important;
+	}
+	.mobile-sub .wsmenu-submenu li:hover > a{
+		color: #0066ad !important;
+	}
+	.megamenu > ul > li > a{
+		color: #363636!important;
+	}
+	.megamenu > ul > li > a:hover{
+		color: #0066ad !important;
+	}
+}
+
+
+/*------------------------------------------------------------------
+1. Reset
+-------------------------------------------------------------------*/
+body{
+	background-color: #fff;
+	color: rgba(54, 54, 54, 0.8);
+	letter-spacing: 0.2px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	color: #0066ad;
+}
+a:hover{
+	color: #0066ad;
+}
+h1,h2,h3,h4,h5,h6{
+	color: #363636;
+	font-weight: 500;
+}
+
+/*------------------------------------------------------------------
+7. Submenu Types
+-------------------------------------------------------------------*/
+.nav-submenu-type-1 .wsmenu-submenu li a{
+	color: rgba(54,54,54,0.8);
+}
+.nav-submenu-type-1 .wsmenu-submenu li a:hover{
+	color: #0066ad;
+}
+
+.nav-submenu-type-2 .wsmenu-submenu li a{
+	background-color: transparent;	
+	color: rgba(54,54,54,0.8);
+	font-weight: 400;
+}
+.nav-submenu-type-2 .wsmenu-submenu li a:hover{ 
+	background-color: #0066ad;
+	color: #fff;
+}
+
+.nav-submenu-type-3 .wsmenu-submenu li a{
+	background-color: transparent;	
+	color: rgba(54,54,54,0.8);
+	font-weight: 400;
+}
+.nav-submenu-type-3 .wsmenu-submenu li a:hover{ 
+	background-color: #0066ad;
+	color: #fff;
+}
+
+.nav-submenu-type-4 .wsmenu-submenu li a{
+	color: rgba(54,54,54,0.8);
+}
+.nav-submenu-type-4 .wsmenu-submenu li a:hover{
+	color: #0066ad;	
+}
+.nav-submenu-type-4 .wsmenu-submenu li a .menu-item-textWrap:after{
+    background-color: #0066ad;	
+}
+
+.nav-submenu-type-5 .wsmenu-submenu li a{
+	background-color: transparent;
+	color: rgba(54,54,54,0.8);
+	font-weight: 400;
+}
+.nav-submenu-type-5 .wsmenu-submenu li a:hover{
+	background-color: #f5f5f5;
+	color: #0066ad;
+}
+.nav-submenu-type-5 .wsmenu-submenu li a .menu-item-textWrap:after{
+    background-color: #0066ad;
+}
+.nav-submenu-type-5 .wsmenu-submenu-sub-sub:after,
+.nav-submenu-type-5 .wsmenu-submenu-sub:after,
+.nav-submenu-type-5 .wsmenu-submenu:after{
+    background-color: #0066ad;
+}
+
+/*------------------------------------------------------------------
+14. Footer
+-------------------------------------------------------------------*/
+#footer{
+	padding-top: 0;
+	color: rgba(255, 255, 255, 0.6);
+}
+.bottom-section{
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+/*------------------------------------------------------------------
+2. Buttons
+-------------------------------------------------------------------*/
+.btn.btn-primary {
+	background-color: #e3e5e5;
+	color: #0066ad;
+	letter-spacing: 1px;
+}
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus{
+	background-color: #0066ad;
+	color: #fff;
+}
+
+/*------------------------------------------------------------------
+9. Testimonial
+-------------------------------------------------------------------*/
+.testimonial-container-1{
+	border-color: #ffcf18;
+}
+.testimonial-container-1:hover{
+	border-top-color: #2887c2;
+}
+.testimonial-container-1 .testimonial-containerWrap{
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+}
+.testimonial-container-1 .image i{
+	background-color: #ffcf18;
+}
+.testimonial-container-1:hover .image i{
+	background-color: #2887c2;
+}
+.testimonial-container-1 p{
+	color: rgba(54, 54, 54, 0.8);
+}
+.testimonial-container-1 .title{
+	color: #ffcf18;
+	text-transform: uppercase;
+	font-size: 14px;
+}
+.testimonial-container-1:hover .title{
+	color: #2887c2;
+}
+
+/*------------------------------------------------------------------
+14. Tabs
+-------------------------------------------------------------------*/
+.tabs-element-10 ul.tabs li a{
+	background-color: #fff;
+	color: #363636;
+}
+.tabs-element-10 ul.tabs li a:after{
+	border-right-color: #fff;
+}
+.tabs-element-10 ul.tabs li a .icon{
+	color: #0066ad;
+}
+.tabs-element-10 ul.tabs li.active a{
+	background-color: #0066ad;
+	color: #fff;	
+}
+.tabs-element-10 ul.tabs li.active a .icon{
+	color: #fff;	
+}
+.tabs-element-10 ul.tabs li.active a:after{
+	border-right-color: #0066ad;
+}
+
+/*------------------------------------------------------------------
+18. Highlight Heading
+-------------------------------------------------------------------*/
+
+.highligh-heading-2{
+	font-weight: 500;
+}
+
+.highligh-heading-3{
+	font-weight: 500;
+}
+
+/*------------------------------------------------------------------
+25. Loop Elements
+-------------------------------------------------------------------*/
+.loop-element-pagination .loop-element-dots .owl-dot{
+	background-color: #fff;
+}
+.loop-element-pagination .loop-element-dots .owl-dot.active{
+	background-color: #0066ad;
+}
